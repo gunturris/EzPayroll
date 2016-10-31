@@ -1,0 +1,62 @@
+.DropdownMenu { 
+
+} 
+#Dropdownbox { 
+position: static;
+}
+
+#strike { 
+}
+#strike ul {  
+}
+#strike li {  
+}
+#strike li a, #strike li a:link, #strike li a:visited { 
+    display: block	;  
+}
+#strike li a:hover, #strike li a:active {
+	   
+}
+#strike li li a, #strike li li a:link, #strike li li a:visited {
+	 
+    background:#B45F04;
+    width: 120px;
+    color:#FFFFFF;
+    font-size: 11px; 
+    font-weight: normal;
+    float: none;
+    margin-top:0px;     	
+    line-height:25px;      	
+    height:25px;      	
+}
+ #strike li ul { 
+    margin-top:36px; 
+}
+#strike li li a:hover, #strike li li a:active {
+   
+    background:#F3E2A8;
+    color:#ff6803; 
+}
+#strike li { 
+    float: left;
+    padding: 0;
+}
+#strike li ul {
+	 
+    z-index: 9999;
+    position: absolute;
+    left: -999em;
+    height: auto;
+    width: 120px; 	
+} 
+#strike li:hover ul ul, #strike li:hover ul ul ul, #strike li.sfhover ul ul, #strike li.sfhover ul ul ul {
+border-radius:6px;
+    left: -999em;
+}
+#strike li:hover ul, #strike li li:hover ul, #strike li li li:hover ul, #strike li.sfhover ul, #strike li li.sfhover ul, #strike li li li.sfhover ul {
+ 
+    left: auto;
+}
+#strike li:hover, #strike li.sfhover { 
+    position: static;
+}
